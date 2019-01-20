@@ -16,12 +16,12 @@ namespace Multiples_of_3_and_5
 
     class AdderOfMultiples
     {
-        public static int GetSum(int a, int b, int c)
+        public static int GetSum(int firstNumber, int secondNumber, int limit)
         {
             int sum = 0;
-            for (int i = 0; i < c; i++)
+            for (int i = 0; i < limit; i++)
             {
-                if ((i % a == 0) || (i % b == 0))
+                if ((i % firstNumber == 0) || (i % secondNumber == 0))
                 {
                     sum += i;
                 }
