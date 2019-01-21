@@ -10,10 +10,10 @@ namespace Largest_prime_factor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(PrimeFactorCalculator.GetTheLargestPrime(600851475143));
+            Console.WriteLine(PrimeFactorCalculator.GetTheLargetPrime(600851475143));
         }
     }
-    public class PrimeFactorCalculator
+    class PrimeFactorCalculator
     {
         private static bool IsPrime(long number)
         {
@@ -41,7 +41,7 @@ namespace Largest_prime_factor
             return true;
         }
 
-        public static List<int> GetPrimes(long number)
+        private static List<int> GetPrimes(long number)
         {
             List<int> primes = new List<int>();
             for (int i = 2; i <= number; i++)
@@ -54,7 +54,7 @@ namespace Largest_prime_factor
             }
             return primes;
         }
-        public static int GetTheLargestPrime(long number)
+        public static int GetTheLargetPrime(long number)
         {
             return GetPrimes(number).Max();
         }
