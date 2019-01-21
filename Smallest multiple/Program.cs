@@ -1,9 +1,6 @@
-﻿using System;
+﻿using Largest_prime_factor;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Largest_prime_factor;
 
 namespace Smallest_multiple
 {
