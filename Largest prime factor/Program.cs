@@ -48,6 +48,12 @@ namespace Largest_prime_factor
                 {
                     number /= i;
                     primes.Add(i);
+
+                    while (number % i == 0)
+                    {
+                        number /= i;
+                        primes.Add(i);
+                    }
                 }
             }
             return primes;
@@ -56,6 +62,26 @@ namespace Largest_prime_factor
         public static int GetTheLargestPrime(long number)
         {
             return GetPrimes(number).Max();
+        }
+
+        public static int GetGreatestCommonDivisor(int firstNumber, int secondNumber)
+        {
+            if (firstNumber == 0)
+            {
+                return secondNumber;
+            }
+            while (secondNumber != 0)
+            {
+                if (firstNumber > secondNumber)
+                {
+                    firstNumber -= secondNumber;
+                }
+                else
+                {
+                    secondNumber -= firstNumber;
+                }
+            }
+            return firstNumber;
         }
     }
 }
