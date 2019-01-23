@@ -13,7 +13,7 @@ namespace Largest_prime_factor
     }
     public class PrimeFactorCalculator
     {
-        private static bool IsPrime(long number)
+        public static bool IsPrime(long number)
         {
             if (number <= 1)
             {
