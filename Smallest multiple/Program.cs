@@ -1,7 +1,6 @@
 ﻿using Largest_prime_factor;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Smallest_multiple
 {
