@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum square difference", "Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10001st prime", "10001st prime\10001st prime.csproj", "{DD3AA077-7418-47C0-A2B7-BFD5FE2AF001}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largest product in a series", "Largest product in a series\Largest product in a series.csproj", "{B7804B81-3D5E-4255-A8D5-5032395D39D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{DD3AA077-7418-47C0-A2B7-BFD5FE2AF001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD3AA077-7418-47C0-A2B7-BFD5FE2AF001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD3AA077-7418-47C0-A2B7-BFD5FE2AF001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7804B81-3D5E-4255-A8D5-5032395D39D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7804B81-3D5E-4255-A8D5-5032395D39D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7804B81-3D5E-4255-A8D5-5032395D39D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7804B81-3D5E-4255-A8D5-5032395D39D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
