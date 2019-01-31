@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10001st prime", "10001st pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largest product in a series", "Largest product in a series\Largest product in a series.csproj", "{B7804B81-3D5E-4255-A8D5-5032395D39D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Special Pythagorean triplet", "Special Pythagorean triplet\Special Pythagorean triplet.csproj", "{58D6747E-3376-4CCF-8D81-0A06DEA870D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{B7804B81-3D5E-4255-A8D5-5032395D39D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7804B81-3D5E-4255-A8D5-5032395D39D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7804B81-3D5E-4255-A8D5-5032395D39D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D6747E-3376-4CCF-8D81-0A06DEA870D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D6747E-3376-4CCF-8D81-0A06DEA870D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D6747E-3376-4CCF-8D81-0A06DEA870D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D6747E-3376-4CCF-8D81-0A06DEA870D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
